@@ -1,0 +1,28 @@
+body{
+    width:99%;
+    padding:26px 0px;
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+.main{
+    width:480px !important;
+    height:700px !important;
+    border-radius: 35px;
+    /* margin:25px 0px; */
+    color: white !important;
+}
+
+.inputs{
+    padding:0px 35px; 
+}
+
+.btn{
+    width:200px;
+    font-size:1.5rem !important;
+    letter-spacing:1px;
+}
+
+.terms-conditions{
+    height:1.2rem !important;
+    width:1.5rem !important;
+}
