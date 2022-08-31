@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'myFont'; /* this value can be anything you wish - it gets used in the class definition below */
+    src: url('Fonts/ADAM.CG\ PRO.otf'); /* add the file path to your font here */
+  }
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image:url(Images/gymWall1.jpg);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+}
+
+/* .gym-image{
+    width:500px;
+} */
+
+.main{
+    position: relative;
+    z-index: 444;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    padding: 40px 10px;
+    color:white;
+    height:50px;
+    align-items: center;
+}
+
+.main ul{
+    /* margin:5px 10px; */
+    display: flex;
+    list-style:none;
+    /* margin */
+}
+
+.main li{
+    margin:0px 18px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.nav-items{
+    margin: 0px 48px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    /* color: rgb(71, 156, 156); */
+    color:cyan
+}
+
+.call{
+    color:white;
+    cursor: pointer;
+    margin: 0px 10px;
+    /* border: 2px solid green; */
+    border-radius:8px;
+    height:30px;
+    width:80px;
+    background:red;
+}
+
+.heading{
+    color: white;
+    /* border: 2px solid red; */
+    height: 157px;
+    width: 844px;
+    font-size:3.5rem;
+    margin-top:300px;
+    margin-left: 150px;
+    margin-bottom: 8px;
+    background: transparent;
+    font-family:myFont;
+    /* font-weight: 800; */
+    /* font-stretch: extra-expanded; */
+}
+
+.para{
+    margin-left: 150px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing:1px;
+    background: transparent;
+
+    /* border: 2px solid green; */
+}
+
+.btn{
+    position: absolute;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    height:50px;
+    width: 232px;
+    background-color: red;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 28px;
+    border-radius:5px;
+    z-index: 0;
+}
+
+.btn:hover{    
+    background:white;
+    color:black;
+
+}
+.call:hover{
+    background:white;
+    color:black;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .main{
+        /* background:red; */
+        padding: 10px 0px;
+        height: 100%;
+        /* background-position: center; */
+        /* background-repeat: no-repeat;  */
+        /* background-size: auto;  */
+        /* background-image:url(Images/gymWall1.jpg); */
+        /* margin:0px; */
+    }
+    h3{
+        margin:0px;
+    }
+    .nav-items{
+        margin: 0px 4px;
+    }
+    .heading{
+        /* border:2px solid green; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 98%;
+        margin-top:100px;
+        margin-left: 10px;
+    }
+   
+    .para{
+        margin-left: 10px;
+    }
+    .main li{
+        margin:0px 10px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+    .buttoncl{
+    /* border:2px solid green; */
+    height:200px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .main{
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+        height: 100%;
+        font-size: 18px;;
+        /* background-position: center; */
+        /* background-repeat: no-repeat;  */
+        /* background-size: auto;  */
+        /* background-image:url(Images/gymWall1.jpg); */
+
+    }
+    h3{
+        margin:0px;
+    }
+    .nav-items{
+        margin: 0px 4px;
+    }
+    .heading{
+        /* border:2px solid green; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 98%;
+        margin-top:100px;
+        margin-left: 10px;
+    }
+   
+    .para{
+        margin-left: 10px;
+    }
+    .main li{
+        margin:0px 18px;
+    }
+    .btn{
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+    .buttoncl{
+    /* border:2px solid green; */
+    height:200px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+}
