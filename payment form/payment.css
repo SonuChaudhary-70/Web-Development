@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+    h1{
+        margin: 15px 22px;
+    }
+
+.user{
+    margin:15px 20px;
+}
+
+.userfield{
+    padding: 12px 28px;
+    width:700px;
+    height:260px;
+    background-color: rgb(169, 215, 215);
+    border-radius:5px;
+}
+
+label, input{
+    /* padding:5px 0px; */
+    font-size:20px;
+}
+
+.fname, .lname, .email{
+    padding: 12px 8px;
+}
+
+#submit, #reset{
+    height: 36px;
+    width: 117px;
+    border-radius: 5px;
+    margin:8px;
+}
+
+.cardfield{
+    padding: 12px 28px;
+    width:700px;
+    height:340px;
+    background-color: rgb(169, 215, 215);
+    border-radius:5px;
+    margin:15px 20px;
+}
+
+.amount, .cvc, .userName, .cardNumber, .expiry{
+    padding: 12px 8px;
+
+}
