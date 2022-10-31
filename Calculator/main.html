@@ -22,65 +22,85 @@
     <!-- ==================== Calculator ====================  -->
     <div class="container-fluid">
         <div class="row vh-100 align-items-center ">
-            <div class="col-12 p-0 d-flex justify-content-center flex-colum">
+            <div class="col-12 p-0 d-flex justify-content-center flex-column align-items-center ">
 
-                <div class="calculator ">
-                    <!---------- Display Section Start ---------->
-                    <div class="display border border-dark bg-light text-dark d-flex align-items-end justify-content-end p-2 fs-4"
-                        id="display"></div>
-                    <!---------- Display Section End ---------->
+                <div class="cal-fot d-flex ">
+                    <!----------- Project Tittle/Name ----------->
+                    <span class="tittle m-0 p-0 border d-flex flex-column justify-content-center align-items-center text-light">
+                        <h4 class="mt-3">S</h4>
+                        <h4>I</h4>
+                        <h4>D</h4>
+                        <h4>Z</h4>
+                        <h4>Y</h4>
+                        <br>
+                        <h4>C</h4>
+                        <h4>A</h4>
+                        <h4>L</h4>
+                        <h4>C</h4>
+                        <h4>U</h4>
+                        <h4>L</h4>
+                        <h4>A</h4>
+                        <h4>T</h4>
+                        <h4>O</h4>
+                        <h4 class="mb-3">R</h4>
+                    </span>
 
-                    <!---------- Keys Section Start ---------->
-                    <div class="keys border border-dark d-flex flex-wrap justify-content-between px-2 m-0 bg-dark ">
-                        <button class="btn btn1 btn-outline-secondary text-light mt-2" id="zero">0</button>
-                        <button class="btn btn1 btn-outline-secondary  text-light mt-2" id="one">1</button>
-                        <button class="btn btn1 btn-outline-secondary  text-light mt-2" id="two">2</button>
-                        <button class="btn btn1 btn-outline-primary plus-operator mt-2" id="plus">+</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="three">3</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="four">4</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="five">5</button>
-                        <button class="btn btn1 btn-outline-primary minu-operator" id="minus">-</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="six">6</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="seven">7</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="eight">8</button>
-                        <button class="btn btn1 btn-outline-primary mult-operator" id="multiply">*</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="nine">9</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="reset">AC</button>
-                        <button class="btn btn1 btn-outline-secondary text-light" id="decimal">.</button>
-                        <button class="btn btn1 btn-outline-primary divide-operator" id="divide">/</button>
-                        <button class="btn btn1 btn-outline-light equal vw-100" id="equal">=</button>
+                    <div class="calculator rounded-4">
+                        <!---------- Display Section Start ---------->
+                        <div class="display border border-dark bg-light text-dark d-flex align-items-end justify-content-end p-2 fs-4"
+                            id="display"></div>
+                        <!---------- Display Section End ---------->
+
+                        <!---------- Keys Section Start ---------->
+                        <div class="keys border border-dark d-flex flex-wrap justify-content-between px-2 m-0 bg-dark ">
+                            <button class="btn btn1 btn-outline-secondary text-light mt-2" id="zero">0</button>
+                            <button class="btn btn1 btn-outline-secondary  text-light mt-2" id="one">1</button>
+                            <button class="btn btn1 btn-outline-secondary  text-light mt-2" id="two">2</button>
+                            <button class="btn btn1 btn-outline-primary plus-operator mt-2" id="plus">+</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="three">3</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="four">4</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="five">5</button>
+                            <button class="btn btn1 btn-outline-primary minu-operator" id="minus">-</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="six">6</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="seven">7</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="eight">8</button>
+                            <button class="btn btn1 btn-outline-primary mult-operator" id="multiply">*</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="nine">9</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="reset">AC</button>
+                            <button class="btn btn1 btn-outline-secondary text-light" id="decimal">.</button>
+                            <button class="btn btn1 btn-outline-primary divide-operator" id="divide">/</button>
+                            <button class="btn btn1 btn-outline-light equal vw-100" id="equal">=</button>
+                        </div>
+                        <!---------- Keys Section End ---------->
                     </div>
-                    <!---------- Keys Section End ---------->
+                    <!-- Section: Social media Start -->
+                    <footer class="footer d-flex flex-column justify-content-around border align-items-center">
+
+                        <div class="d-flex flex-column">
+                            <!-- Instagram -->
+                            <a class="btn btn-outline-danger btn-floating my-3"
+                                href="https://www.instagram.com/siddhant_chaudhary09/" role="button"><i
+                                    class="fab fa-instagram"></i></a>
+
+                            <!-- Linkedin -->
+                            <a class="btn btn-outline-primary btn-floating my-3"
+                                href="https://www.linkedin.com/in/sonuchaudhary78/" role="button"><i
+                                    class="fab fa-linkedin-in"></i></a>
+
+                            <!-- Github -->
+                            <a class="btn btn-outline-dark border-light btn-floating my-3"
+                                href="https://github.com/SonuChaudhary-70" role="button"><i
+                                    class="fab fa-github bg-black"></i></a>
+                        </div>
+
+                        <!-- <p class="legal-copy text-danger pt-3 text-muted d-flex flex-column">© Sonu Chaudhary All rights reserved.
+                    </p> -->
+                    </footer>
                 </div>
+                <!-- Section: Social media End -->
             </div>
         </div>
     </div>
-
-
-    <!-- Section: Social media Start -->
-    <section class="section d-flex justify-content-around border border-2  align-items-center rounded-pill mt-4 ">
-
-        <div>
-            <!-- Instagram -->
-            <a class="btn btn-outline-danger btn-floating m-1" href="https://www.instagram.com/siddhant_chaudhary09/"
-                role="button"><i class="fab fa-instagram"></i></a>
-
-            <!-- Linkedin -->
-            <a class="btn btn-outline-primary btn-floating m-1" href="https://www.linkedin.com/in/sonuchaudhary78/"
-                role="button"><i class="fab fa-linkedin-in"></i></a>
-
-            <!-- Github -->
-            <a class="btn btn-outline-dark border-light btn-floating m-1" href="https://github.com/SonuChaudhary-70"
-                role="button"><i class="fab fa-github"></i></a>
-        </div>
-
-        <p class="legal-copy text-danger pt-3">© Sonu Chaudhary All rights reserved.
-        </p>
-    </section>
-    <!-- Section: Social media End -->
-
-
-
 
 
 
